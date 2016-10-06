@@ -1,0 +1,28 @@
+body, html {
+  font-size: 14px;
+  font-family: monospace, serif;
+  background-color: #B0B7CA;
+
+}
+img{
+  padding-right: 5%;
+  float:left;
+}
+
+#intro{
+  width:25%;
+}
+
+#registry{
+  background-color: #98B790;
+  position:absolute;
+  width:25%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+footer{
+  margin-top: 25%;
+  float: right;
+}

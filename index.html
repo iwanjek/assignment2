@@ -5,12 +5,23 @@
     <meta contents="author: ian wanjek">
     <title>Assignment 2</title>
     <link rel="stylesheet" href="./css/assignment2.css">
+    <link rel="icon" href="img/database-logo.png">
   </head>
 
   <body>
     <header>
+      <h1>Gotham Registrar</h1>
     </header>
-    <form id="registry">
+
+      <p id="intro">
+        <img src="img/OMAC_Project_Vol_1_1_Brother_Eye.jpg" alt="Brother Eye">
+        "In accordance with the DC OMAC comic series (1974), a database of all
+        secret identities with superhuman powers shall be collected . We would
+        like to thank you for your efforts in helping create this database but
+        feel it is unnecessary seeing as this form is compulsory." - Brother Eye
+      </p>
+
+    <form id="registry" onsubmit="return false">
       <fieldset>
         <legend>Superpower Registry</legend>
         Full Name:<br>
@@ -24,12 +35,14 @@
           <input type="radio" name="alliegance" value="Hero" > Hero <br>
           <input type="radio" name="alliegance" value="Villain"> Villain <br>
           <input type="radio" name="alliegance" value="Undecided" checked> Undecided <br>
-          <input type="button" value="Submit" onclick="subFunc()">
+          <input type="submit" value="Submit" onclick="subFunc()">
       </span>
       </fieldset>
     </form>
     <script type="text/javascript" src="./js/assignment2.js"></script>
     <footer>
+      <p> <i>Copyright of Wayne Enterprises &#169</i></p>
+      <a href="http://dc.wikia.com"><i>For more information</i></a>
     </footer>
   </body>
 
