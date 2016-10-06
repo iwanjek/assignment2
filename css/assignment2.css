@@ -4,12 +4,27 @@ body, html {
   background-color: #B0B7CA;
 
 }
+div.top-container{
+  position: relative;
+
+
+}
+
+div.top-container h1 {
+  margin: 0;
+  position:absolute;
+  left: 50%;
+
+  transform: translate(-50%, 0);
+}
+
 img{
   padding-right: 5%;
   float: left;
 }
 
 #intro{
+  padding-top: 10rem;
   width: 25%;
 }
 

@@ -1,4 +1,4 @@
-(function subFunc(){
+function subFunc(){
 
   var registry = document.getElementById('registry');
   var pass_registry = true;
@@ -26,4 +26,4 @@
     alert('Congratualtions! You have successfully registered with the Gotham Data Center.')
   }
 
-})();
+}
